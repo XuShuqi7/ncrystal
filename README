@@ -131,5 +131,3 @@ AT (0, 0, 0) RELATIVE PREVIOUS
 For more documentation about the NCrystal_sample component, run:
 
 $> mcdoc NCrystal_sample
-
-I try if I can modify this file.

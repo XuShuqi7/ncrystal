@@ -2,11 +2,14 @@ NCMAT v4
 #
 # Gamma phase of solid oxygen (gamma-O2)
 #
-# Crystal structure was converted from the cif file of the entry 0011135 in the AMCSD.
-# Additional reference: Wyckoff R W G, Crystal Structures, vol. 1, p. 7-83, 1963.
-#                       https://www.crystallography.net/cod/9008459.html
+# Crystal structure was converted from the cif file of the entry 0015160 in the AMCSD.
+# Additional reference: 
+# Cox D E, Samuelsen E J, Ceckurts K H 	
+# Physical Review B7 (1973) 3102-3111
+# Neutron-Diffraction determination of the crystal structure and magnetic form
+# factor of gamma-oxygen
 #
-# The VDOS curve was extracted by T. Kittelmann using the engauge digitizer
+# The VDOS curve was extracted by S. Xu using the engauge digitizer
 # software from Figure 6 of:
 #
 #   "Revisiting the revised Ag-Pt phase diagram"
@@ -15,17 +18,15 @@ NCMAT v4
 #   https://doi.org/10.1016/j.actamat.2016.10.053
 #
 @CELL
-  cubic 4.0862
+  cubic 6.78
 @SPACEGROUP
-  225
+  223
 @ATOMPOSITIONS
-  Ag   0   0   0
-  Ag   0 1/2 1/2
-  Ag 1/2   0 1/2
-  Ag 1/2 1/2   0
+  O   0.04360   0.04360   0.04360
+  O   0.03400   0.25160   0.41510
 @DYNINFO
-  element  Ag
-  fraction 1
+  element  O
+  fraction 0.25
   type     vdos
   vdos_egrid 0.00052039106190946 0.020295251414469
   vdos_density .00274907 .0048563 .00372493 .000951321 .000243358 .000200615

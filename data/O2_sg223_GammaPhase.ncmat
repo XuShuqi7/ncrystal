@@ -9,13 +9,16 @@ NCMAT v4
 # Neutron-Diffraction determination of the crystal structure and magnetic form
 # factor of gamma-oxygen
 #
-# The VDOS curve was extracted by S. Xu using the engauge digitizer
-# software from Figure 6 of:
+# The site occupancy of oxygen atom is taken into account by putting 0.25 in NCrystal.
 #
-#   "Revisiting the revised Ag-Pt phase diagram"
-#   Gus L.W. Hart, et. al.
-#   Acta Materialia 124 (2017) 325-332
-#   https://doi.org/10.1016/j.actamat.2016.10.053
+# Since the VDOS curve of the gamma-phase of solid oxygen was not reported in the 
+# literature, a simplified Debye model is used instead. The Debye temperature 
+# Delta_D = 104 K is retrieved from the Ref:
+# Yu.A. Freiman, H.J. Jodl,
+# Solid oxygen,
+# Physics Reports,
+# Volume 401, Issues 1–4,
+# 2004,
 #
 @CELL
   cubic 6.78

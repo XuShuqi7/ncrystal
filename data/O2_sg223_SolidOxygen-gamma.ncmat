@@ -9,7 +9,8 @@ NCMAT v4
 # Neutron-Diffraction determination of the crystal structure and magnetic form
 # factor of gamma-oxygen
 #
-# The site occupancy of oxygen atom is taken into account by putting 0.25 in NCrystal.
+# The site occupancy of oxygen atom is taken into account by multiplying a factor 
+# of 0.25 for the number density.
 #
 # Since the VDOS curve of the gamma-phase of solid oxygen is not reported in the 
 # literature, a simplified Debye model is used instead. The Debye temperature 

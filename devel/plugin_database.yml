@@ -20,14 +20,11 @@ DummyDataPlugin:
 CrysText:
   github_repo_key: "highness-eu/ncplugin-CrysText"
   description: |
-    A plugin providing texture models. Note that this plugin has some known
+    A plugin providing March-Dollase texture models. Note that this plugin has some known
     numerical issues and is slow for shorter wavelengths.
 
-MagScat:
-  github_repo_key: "highness-eu/ncplugin-MagScat"
-  description: |
-    A plugin providing paramagnetic scattering in O2-clathrates, based on
-    formulas by O. Zimmer (https://doi.org/10.1103/PhysRevC.93.035503).
+    Models and benchmarking are described in
+    V. Santoro, et al. (DOI 10.3233/JNR-230950) pages 249-251
 
 SANSND:
   github_repo_key: "highness-eu/ncplugin-SANSND"
@@ -35,13 +32,7 @@ SANSND:
     A plugin to provide small angle neutron scattering for nanodiamonds.
 
     Models and benchmarking are described in
-    N. Rizzi, et al. (https://doi.org/10.1080/00295639.2023.2196926).
-
-CrysExtn:
-  github_repo_key: "XuShuqi7/ncplugin-CrysExtn"
-  description: |
-    A plugin providing extinction models for polycrystalline matherials. Both
-    Sabine's and Becker and Coppens' (BC) extinction models are implemented.
+    N. Rizzi, et al. (DOI:10.1080/00295639.2023.2196926).
 
 nxslib:
   github_repo_key: "mctools/ncplugin_nxslib"
@@ -58,7 +49,7 @@ WaterData:
     temperatures compared to what is found in the NCrystal standard library.
 
     The data files were based on ENDF/B-VIII.0 CAB scattering kernels by
-    J.I. Márquez Damián, et. al. (https://doi.org/10.1016/j.anucene.2013.11.014).
+    J.I. Márquez Damián, et. al. (DOI:10.1016/j.anucene.2013.11.014).
 
 UraniumOxideData:
   is_on_pypi: true
